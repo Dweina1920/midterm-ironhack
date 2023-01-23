@@ -12,9 +12,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  padding-left: 9%;
+  padding-right: 8%;
 }
-
-
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
@@ -35,6 +35,43 @@ body {
 /* ------------------------------ Header ------------------------------ */
 
 /* Your CSS code goes here */
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 7%;
+  width: 100%;
+}
+
+.logo{
+  margin-bottom: 5%;
+}
+
+.center-header{
+  display:flex;
+  flex-direction: row;
+justify-content: center;
+
+  
+}
+.links-center-header{
+  margin-right: 10%;
+margin-left: 10%;
+text-decoration:none;
+font-weight:550;
+color: grey;
+
+}
+.btn-contactUs-header{
+  font-size: 15px;
+  background-color: #072ac8;
+  border: #072ac8;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight:600;
+}
 
 /* ------------------------------ Partners ------------------------------ */
 
