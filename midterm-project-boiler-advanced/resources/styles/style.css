@@ -12,12 +12,19 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  padding-left: 9%;
-  padding-right: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
+.container-hero-section{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+
 /* ------------------------------------------------------------------------ */
 
 /* ------------------------------ Splash page ------------------------------ */
@@ -28,49 +35,71 @@ body {
 
 /* Your CSS code goes here */
 
-/* ------------------------------ Navbar ------------------------------ */
-
-/* Your CSS code goes here */
 
 /* ------------------------------ Header ------------------------------ */
 
 /* Your CSS code goes here */
 
-.container-header {
+.header {
+  margin-top: 4%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding-top: 7%;
-  width: 100%;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
 }
 
-.logo{
-  margin-bottom: 5%;
+.header .logo {
+  cursor: pointer;
 }
 
-.center-header{
-  display:flex;
-  flex-direction: row;
-justify-content: center;
-
-  
+.header .logo img:hover {
+  transform: scale(1.2);
 }
-.links-center-header{
-  margin-right: 10%;
-margin-left: 10%;
-text-decoration:none;
-font-weight:550;
-color: grey;
+
+.header .nav-links {
+  list-style: none;
 
 }
-.btn-contactUs-header{
-  font-size: 15px;
-  background-color: #072ac8;
-  border: #072ac8;
-  width: 150px;
-  height: 50px;
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.1);
+}
+.links{
+  font-weight: 500;
+}
+.header .nav-links a {
+
+  color: #515456;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: #4479f5;
+}
+
+.btn button {
+  font-weight: 700;
   color: white;
-  font-weight:600;
+  background: #072ac8;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  padding: 5%;
+}
+
+.header .btn button:hover {
+  background-color:  #515456;;
+  color: white;
+  transform: scale(1.1);
 }
 
 /* ------------------------------ Partners ------------------------------ */
