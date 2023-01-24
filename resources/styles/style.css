@@ -15,8 +15,6 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #f4f7f8;
-  align-items: center;
-  justify-content: center;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -122,7 +120,7 @@ body {
 
 .slider {
   height: 200px;
-  
+
   overflow: hidden;
   position: relative;
   width: auto;
@@ -142,12 +140,9 @@ body {
 }
 .slide {
   margin-left: 3%;
-
 }
 
 /* Your CSS code goes here */
-
-/* ------ CIRCULAR ANIMATION ------ */
 
 /* Your CSS code goes here */
 
@@ -162,7 +157,6 @@ body {
   align-items: center;
   height: 85px;
   padding: 5px 10%;
-  
 }
 
 .header .logo {
@@ -223,61 +217,157 @@ body {
 /* ------------------------------ Recent projects ------------------------------ */
 
 /* Your CSS code goes here */
-.container-recent-projects{
-  margin-right: 10%;
-  margin-left: 15%;
+.container-recent-projects {
+  margin: 10% 8% 10% 8%;
 }
-.titulo-recent-projects{
+.titulo-recent-projects {
   font-size: 50px;
   font-weight: 800;
 }
-.container-cards{
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.card{
+.card {
   margin-top: 5%;
-  width: 350px;
+  width: 300px;
   height: 500px;
   background-color: white;
-  
 }
-.div-img-card{
-  width: 350px;
+.div-img-card {
+  width: 300px;
   height: 225px;
 }
-.img-card{
+.img-card {
   width: 100%;
   height: 100%;
 }
-.container-info-card{
+.container-info-card {
   display: flex;
   flex-direction: column;
-  text-align:left;
+  text-align: left;
   justify-content: space-around;
   height: 250px;
   padding: 20px;
 }
-.titulo-card{
+.titulo-card {
   font-size: xx-large;
 }
 
-.descripcion-card{
-  font-size:20px;
+.descripcion-card {
+  font-size: 20px;
 }
-.learn-more-class{
+.learn-more-class {
   margin-top: 6%;
+  color: #072ac8;
 }
 /* ------------------------------ Client reviews ------------------------------ */
 
 /* Your CSS code goes here */
 
+.client-reviews {
+  position: relative;
+  background: rgb(66, 71, 107);
+  width: 1300px;
+  height: 500px;
+  margin: 0 auto;
+}
+.inner-zone {
+  padding-top: 10%;
+}
+.bg-review {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.zone-one-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.frase-reaview {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+.testimonio {
+  text-align: center;
+  color: goldenrod;
+  font-size: 30px;
+}
+.contact-review {
+  border-radius: 50%;
+}
+.container-contact-review {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.name-contact {
+  color: #4479f5;
+  font-weight: 600;
+}
+.email-contact {
+  text-decoration: none;
+  color: white;
+}
+.zone-three-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 /* ------------------------------ Services ------------------------------ */
 
 /* Your CSS code goes here */
+.div-img-card-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+}
+
+.div-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 100px;
+  background-color: #ecf6ff;
+  border-radius: 50%;
+}
+
+.card-services {
+  margin-top: 5%;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+}
+
+.container-info-card-services {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-around;
+  height: 150px;
+  padding: 20px;
+  background-color: #c8dff3;
+}
+.titulo-card-services {
+  font-size: 25px;
+}
+
+.descripcion-card {
+  font-size: 20px;
+}
+.learn-more-class {
+  margin-top: 6%;
+  color: #072ac8;
+}
 
 /* ------------------------------ Questions form ------------------------------ */
 
@@ -305,7 +395,6 @@ justify-content: space-between;
   text-decoration: none;
   color: #072ac8;
 }
-
 
 /* Your CSS code goes here */
 
