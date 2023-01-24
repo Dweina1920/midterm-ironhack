@@ -44,7 +44,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
     <a href="#roadmap">Roadmap</a>
      <ul>
      <li><a href="#backlog">Back log</a></li>
-        <li><a href="#day-one">Lunes 23, Enero 2023</a></li>
+        <li><a href="#day-one">Lunes 23, Enero 2023:</a></li>
         <li><a href="#day-two">Martes 24, Enero 2023</a></li>
         <li><a href="#day-three">Miercoles 25, Enero 2023</a></li>
         <li><a href="#day-four">Jueves 26, Enero 2023</a></li>
@@ -108,10 +108,10 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Maquetación de Header 
+- [x] Maquetación body de Contact Us. 
+- [x] Crear repositorio y vincularlo a carpeta local. 
+- [] Maquetación de Home completo. 
 
 #### Day Two
 
