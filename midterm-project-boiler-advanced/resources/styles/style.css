@@ -124,6 +124,28 @@ body {
 /* Your CSS code goes here */
 
 /* ------------------------------ Footer ------------------------------ */
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:8%;
+}
+.logo-direction{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+.links-footer{ display: grid;
+  justify-content: space-between;
+grid-template-columns: 200px 200px 200px;
+
+}
+.link-footer{
+  text-decoration:none;
+color:#072ac8 ;
+}
+
 
 /* Your CSS code goes here */
 
