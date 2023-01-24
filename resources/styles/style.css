@@ -18,15 +18,91 @@ body {
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
+.container-hero-section {
+  justify-content: space-around;
+  display: flex;
+
+  width: 60%;
+  margin: 0 auto;
+}
+
 .info-hero-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.container-hero-section {
+
+/*frases hero*/
+
+.frase-empresa {
+  font-size: 60px;
+  font-weight: 800;
+}
+.frase-informativa {
+  font-size: 28px;
+  color: grey;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+/*botones-hero*/
+.div-buttons-hero {
   display: flex;
 }
+.link-hero-original {
+  text-decoration: none;
+  color: grey;
+
+  font-size: 20px;
+}
+.link-hero {
+  text-decoration: none;
+  color: grey;
+}
+.btn-hero {
+  background: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.link-hero-second {
+  text-decoration: none;
+  color: white;
+}
+.btn-hero-second {
+  color: white;
+  background: #072ac8;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+}
+/*imagen-hero*/
+
+.div-hero-img {
+  position: relative;
+}
+
 .big-img-hero {
+  width: 500px;
+  height: 600px;
+}
+.card-1 {
+  position: absolute;
+  width: 60%;
+  right: 60%;
+}
+.card-2 {
+  position: absolute;
+  width: 60%;
+  top: 65%;
+  right: -29%;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -50,6 +126,7 @@ body {
   align-items: center;
   height: 85px;
   padding: 5px 10%;
+  margin-bottom: 5%;
 }
 
 .header .logo {
@@ -124,28 +201,27 @@ body {
 /* Your CSS code goes here */
 
 /* ------------------------------ Footer ------------------------------ */
-.container-footer{
+.container-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding:8%;
+  padding: 8%;
 }
-.logo-direction{
+.logo-direction {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.links-footer{ display: grid;
+.links-footer {
+  display: grid;
   justify-content: space-between;
-grid-template-columns: 200px 200px 200px;
-
+  grid-template-columns: 200px 200px 200px;
 }
-.link-footer{
-  text-decoration:none;
-color:#072ac8 ;
+.link-footer {
+  text-decoration: none;
+  color: #072ac8;
 }
-
 
 /* Your CSS code goes here */
 
