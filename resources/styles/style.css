@@ -18,6 +18,8 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
+/*loader*/
+
 /* ------------------------------ INDEX html ------------------------------ */
 .container-hero-section {
   justify-content: space-between;
@@ -151,7 +153,7 @@ body {
 /* Your CSS code goes here */
 
 .header {
-  margin: 5%;
+  margin: 5% 0 5% 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,6 +210,21 @@ body {
   background-color: #515456;
   color: white;
   transform: scale(1.1);
+}
+
+/*hamburguer menu*/
+.hamburguer {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  background-color: #3e4042;
 }
 
 /* ------------------------------ Partners ------------------------------ */
@@ -493,6 +510,119 @@ form {
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
   /* Your CSS code goes here */
+  body {
+    margin: 0 3% 0 3%;
+  }
+
+  /*boton hamburguesa*/
+  /*header*/
+  .header {
+    justify-content: space-between;
+  }
+  .hamburguer {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: height 300ms;
+  }
+  .nav {
+    margin: 16px 0;
+  }
+  .nav-links.active {
+    left: 0;
+  }
+  .link {
+    color: greenyellow;
+  }
+  /*hero*/
+  .container-hero-section {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    margin: 0 auto;
+  }
+  .frase-empresa {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .div-hero-img {
+    margin: 15% 3% 5% 3%;
+  }
+  .big-img-hero {
+    width: 250px;
+    height: 300px;
+  }
+  .frase-informativa {
+    margin: 10% 0 10% 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  /*slider*/
+  .img-slide {
+    width: 100px;
+    height: 100px;
+  }
+
+  .slider {
+    margin-bottom: -20%;
+  }
+  /*cards de home*/
+
+  .container-cards {
+    display: grid;
+    column-gap: 500px;
+    justify-content: center;
+  }
+  /*client-reviews*/
+  .client-reviews {
+    width: 300px;
+    height: 200px;
+  }
+  .emoji-1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .emoji-2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .emoji-3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .emoji-4 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .frase-reaview {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .testimonio {
+    text-align: center;
+    color: goldenrod;
+    font-size: 15px;
+  }
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
