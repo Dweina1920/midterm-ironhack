@@ -15,10 +15,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #f4f7f8;
- 
 }
-
-
 
 /* ------------------------------------------------------------------------ */
 /*loader*/
@@ -112,6 +109,36 @@ body {
 }
 
 /* ------------------------------------------------------------------------ */
+/*any questions?*/
+.container-any-question {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #ffc600;
+  height: 350px;
+}
+.div-inner-q {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+}
+
+.frase-any-questions {
+  font-size: 50px;
+  font-weight: 800;
+}
+.frase-help-us {
+  font-size: 20px;
+  color: #85898b;
+}
+
+
+
+
+
 
 /* ------------------------------ Splash page ------------------------------ */
 @keyframes scroll {
@@ -398,7 +425,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 8%;
+  margin: 8% 0 8% 0;
 }
 .logo-direction {
   display: flex;
@@ -456,10 +483,10 @@ textarea {
 input[type="submit"] {
   background-color: #072ac8;
   color: white;
-  padding: 24px 40px;
+  padding: 8px 8px;
   border: none;
   width: 100%;
-  font-size: 25p;
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -744,7 +771,59 @@ form {
     height: 40px;
     background-color: darkgray;
   }
+
+  /*any quuestions?*/
+  .container-any-question {
+    margin-top: 20%;
+    width: 300px;
+    position: relative;
+
+    background-color: #ffc600;
+    height: 250px;
+  }
+
+  .frase-any-questions {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .frase-help-us {
+    font-size: 15px;
+    color: #85898b;
+  }
+  .input-a-q::placeholder{
+   
+    font-size: 20px;
+    
+  }
+
+  .input-a-q{
+    margin-bottom:  100px;
+    width: 50%;
+  }
+
+  /*footer*/
+.container-footer{
+  margin: 10% 5% 10% 5%;
 }
+.link-footer{
+  font-size: 10px;
+  
+}
+.links-footer {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50px 50px 50px ;
+}
+.direccion-footer{
+  font-size: 10px;
+  font-weight: 400;
+}
+.input::placeholder{
+  font-size: 15px;
+}
+}
+
+
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
