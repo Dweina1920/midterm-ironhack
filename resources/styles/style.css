@@ -518,9 +518,22 @@ form {
   /*header*/
   .header {
     justify-content: space-between;
+    margin-bottom: 10%;
   }
   .hamburguer {
     display: block;
+  }
+  .btn button {
+    font-weight: 700;
+    color: white;
+    background: #072ac8;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 75px;
+    height: 30px;
+    font-size: 10px;
+    
   }
 
   .nav-links {
@@ -529,7 +542,7 @@ form {
     top: 100px;
     gap: 0;
     flex-direction: column;
-    background-color: black;
+    
     width: 100%;
     text-align: center;
     transition: height 300ms;
@@ -540,15 +553,13 @@ form {
   .nav-links.active {
     left: 0;
   }
-  .link {
-    color: greenyellow;
-  }
+ 
   /*hero*/
   .container-hero-section {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-
+    margin-top: 50%;
     width: 70%;
     margin: 0 auto;
   }
