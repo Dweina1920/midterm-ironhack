@@ -1,31 +1,30 @@
 /* Crea tu propia lógica para hacer fetch de 3 posts distintos y enseñarlos en la homepage con DOM manipulation */
 
-
 //hamburguer menu
-const hamburguer = document.querySelector('.hamburguer');
-const navMenu = document.querySelector('.nav-links');
+const hamburguer = document.querySelector(".hamburguer");
+const navMenu = document.querySelector(".nav-links");
 
-hamburguer.addEventListener('click', () => {
-    hamburguer.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+hamburguer.addEventListener("click", () => {
+  hamburguer.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
 
-document.querySelectorAll(".links").forEach(n => n.addEventListener("click", () => {
+document.querySelectorAll(".links").forEach((n) =>
+  n.addEventListener("click", () => {
     hamburguer.classList.remove("active");
     navMenu.classList.remove("active");
-}))
+  })
+);
 
-
-//scroll to up
+//------------scroll to up-----------
 // Set a variable for our button element.
-const scrollToTopButton = document.getElementById('js-top');
+const scrollToTopButton = document.getElementById("js-top");
 
 // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
 const scrollFunc = () => {
   // Get the current scroll value
   let y = window.scrollY;
-  
-  
+
   // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
   if (y > 0) {
     scrollToTopButton.className = "top-link show";
@@ -39,7 +38,7 @@ window.addEventListener("scroll", scrollFunc);
 const scrollToTop = () => {
   // Let's set a variable for the number of pixels we are from the top of the document.
   const c = document.documentElement.scrollTop || document.body.scrollTop;
-  
+
   // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
   // We'll also animate that scroll with requestAnimationFrame:
   // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
@@ -52,7 +51,20 @@ const scrollToTop = () => {
 };
 
 // When the button is clicked, run our ScrolltoTop function above!
-scrollToTopButton.onclick = function(e) {
+scrollToTopButton.onclick = function (e) {
   e.preventDefault();
   scrollToTop();
+};
+
+//scroll to Projects
+function scrollToProjects() {
+  var recentProjects = document.getElementById("recent-projects");
+  recentProjects.scrollIntoView({behavior: "smooth"});
+}
+
+//scroll to Services
+
+function scrollToServices() {
+  var services = document.getElementById("our-services");
+services.scrollIntoView({behavior: "smooth"})
 }

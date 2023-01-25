@@ -17,8 +17,8 @@
       <nav>
         <ul class="nav-links">
           <li><a class="links" href="index.html">Home</a></li>
-          <li><a class="links" href="#">Services</a></li>
-          <li><a class="links" href="project.html">Projects</a></li>
+          <li><a class="links"   onclick="scrollToServices()" id="services-scroll-button" >Services</a></li>
+          <li><a class="links" onclick="scrollToProjects()" >Projects</a></li>
           <li><a class="links" href="aboutUs.html">About</a></li>
         </ul>
         <div class="hamburguer">
@@ -134,7 +134,7 @@
       </div>
     </div>
 
-    <div class="container-recent-projects">
+    <div class="container-recent-projects" id="recent-projects">
       <div class="div-titulo-recent-projects">
         <p class="titulo-recent-projects">Recent Projects</p>
       </div>
@@ -199,7 +199,7 @@
   </div>
     </div>
 
-    <div class="container-recent-projects">
+    <div class="container-recent-projects" id="our-services">
       <div class="div-titulo-recent-projects">
         <p class="titulo-recent-projects">Our Services</p>
       </div>

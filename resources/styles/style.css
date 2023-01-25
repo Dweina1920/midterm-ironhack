@@ -15,7 +15,10 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #f4f7f8;
+ 
 }
+
+
 
 /* ------------------------------------------------------------------------ */
 /*loader*/
@@ -532,6 +535,7 @@ form {
   padding: 0;
   width: 1px;
   height: 1px;
+  scroll-behavior: smooth;
   overflow: hidden;
   word-wrap: normal !important;
   clip: rect(1px, 1px, 1px, 1px);
