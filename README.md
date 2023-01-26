@@ -116,18 +116,38 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Two
 
 ###### Martes 24, Enero 2023
+- [x] Maquetación Hero. 
+- [x] Maquetación sección de Reviews. 
+- [x] Maquetación sección de las Cards(projects y services). 
+- [x] Funcionalidad colnsole.log en ContactUs. 
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
+- [x] Maquetación de Home completo y responsive 
+- [x] Botón hamburguesa del Header.
+- [x] Funcionalidad Scroll to Top.
+- [x] Funcionalidad Scroll to Projects.
+- [x] Funcionalidad Scroll To Services.
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
+- [x] Maquetación Project y Responsive. 
+- [6] Maquetación About Us y Responsive.
+- [5] Funcionalidad Loader. 
+- [4] Fetch que lleve a project.
+- [3] SetTime de ContactUs. 
+- [x] ContactUs Responsive.
+
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+- [2] Push final. 
+- [1] README. 
+- [3] Presentación. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
