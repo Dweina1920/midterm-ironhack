@@ -52,8 +52,7 @@ const scrollToTop = () => {
 
 // When the button is clicked, run our ScrolltoTop function above!
 scrollToTopButton.onclick = function (e) {
-  e.preventDefault();
-  scrollToTop();
+  e.scrollToTop();
 };
 
 //scroll to Projects
@@ -66,5 +65,34 @@ function scrollToProjects() {
 
 function scrollToServices() {
   var services = document.getElementById("our-services");
-services.scrollIntoView({behavior: "smooth"})
+  services.scrollIntoView({ behavior: "smooth" });
 }
+
+//fetch index
+
+let url = "https://jsonplaceholder.typicode.com/posts/";
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => mostrarData(data))
+  .catch((error) => console.log(error));
+
+const mostrarData = (data) => {
+  console.log(data);
+  let card = "";
+  let size = 3;
+  let items = data.slice(0, size).map((singleCard) => {
+    return (card += `<div class="card">
+               <div class="div-img-card">
+                 <img class ="img-card" src="./resources/images/test/descarga.jpg" alt="">
+               </div>
+               <div class="container-info-card">
+                 <p class="titulo-card">${singleCard.title}</p>
+                 <p class="descripcion-card">${singleCard.body}</p>
+                 <p class="learn-more-class"><a href="./project-card-${singleCard.id}.html">Learn More</a></p>
+               </div>
+     
+               </div>`);
+  });
+
+  document.getElementById("container-card").innerHTML = card;
+};

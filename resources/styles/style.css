@@ -12,9 +12,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: #f2f4fc;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f2f4fc!important ;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -296,10 +296,20 @@ body {
 }
 .titulo-card {
   font-size: xx-large;
+
+  white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
 }
+
 
 .descripcion-card {
   font-size: 20px;
+  
+  white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
 }
 .learn-more-class {
   margin-top: 6%;
@@ -606,7 +616,7 @@ form {
   height: 1px;
   scroll-behavior: smooth;
   overflow: hidden;
-  word-wrap: normal !important;
+  word-wrap: normal;
   clip: rect(1px, 1px, 1px, 1px);
 }
 .screen-reader-text:focus {
