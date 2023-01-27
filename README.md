@@ -27,7 +27,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <div align="center">
   <img src="./resources/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://midterm-ironhack-2xt68p52h-dweina1920.vercel.app//">Visit Website</a>
+  <a href="www.midterm-ironhack-three.vercel.app">Visit Website</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -74,7 +74,7 @@ La páginaweb se divide en:
   - Contact Us
 
 Las funcionalidades que contiene son las siguentes:
-  - Navegación dinámica en la página, con un buen diseño UX. 
+  - Navegación dinámica por página, con un buen diseño UX. 
   - Página web completamente responsive para móviles. 
   - Botón Scroll to Up.
   - Botones en el Header que hacer Scroll de forma ligera a las seciones project i services.
@@ -165,9 +165,10 @@ Me llamo Dina Yamani y soy la creadora del proyecto que estás revisando. El pro
 
 Mis estudios relacionados con el desarrollo empezaron en 2022 con el curso Full-Stack al que asistí en Factoría F5.
 
-Con hambre de conocimiento y con ganas de en mi primera experiencia laboral y aplicar todo lo aprendido en las excelentes formaciones. 
+Con hambre de conocimiento y con ganas de empezar en mi primera experiencia laboral y aplicar todo lo aprendido en las excelentes formaciones. 
 
 Información de contacto:
+
 - linkedin.com/in/dina-yamani
 
 - github.com/Dweina1920 
@@ -176,13 +177,6 @@ Información de contacto:
 
 
 
-Dina Yamani - [@your_linkedin](linkedin.com/in/dina-yamani) 
-
-Project Link: [https://github.com/Dweina1920/midterm-ironhack](https://github.com/your_username/repo_name)
-
-Presentation Link: [Insert here your presentation link](insert-link-here)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -202,14 +196,6 @@ Mis agradecimientos van dirigidos a:
 
 - Uno de los problemas técnicos que he tenido ha sido con el Scroll to Up ya que lo he creado con función de js, que es incompatible con  scroll-behavior: smooth; Finalmente lo he corregido gracias a la ayuda de mi profesor Jarko, anulando la funcón y añadiendo a todo el HTML el scroll-behavior: smooth. Para mis siguientes proyectos tendré en cuenta las incompativilidades que hay en js. 
 
-
-
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
 
 ## Grande Error
 
