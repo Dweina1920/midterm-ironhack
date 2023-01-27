@@ -52,7 +52,6 @@ const scrollToTop = () => {
 
 // When the button is clicked, run our ScrolltoTop function above!
 scrollToTopButton.onclick = function (e) {
-  e.scrollToTop();
 };
 
 //scroll to Projects

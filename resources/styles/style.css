@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   padding-left: 10%;
@@ -537,6 +541,15 @@ textarea {
   font-size: 25px;
 }
 
+.background-mail{
+  background-image: url("../images/newsletter/icon/mail.svg");
+  background-repeat: no-repeat;
+  background-position-y: 10px;
+  text-indent: 25px;
+}
+.background-mail::placeholder{
+  padding-left: 80px;
+}
 input[type="submit"] {
   background-color: #072ac8;
   color: white;
@@ -673,6 +686,9 @@ form {
   .header {
     justify-content: space-between;
     margin-bottom: 10%;
+  }
+  .btn{
+    display:none;
   }
   .hamburguer {
     display: block;
@@ -811,7 +827,15 @@ form {
     background-color: white;
   }
   /*scroll to up*/
-
+  .background-mail{
+    background-image: url("../images/newsletter/icon/mail.svg");
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    text-indent: 25px;
+  }
+  .background-mail::placeholder{
+    padding-left: 40px;
+  }
   .top-link {
     transition: all 0.25s ease-in-out;
     position: fixed;
@@ -838,6 +862,7 @@ form {
     background-color: #ffc600;
     height: 250px;
   }
+  
 
   .frase-any-questions {
     font-size: 20px;
@@ -852,6 +877,7 @@ form {
   }
 
   .input-a-q {
+  
     margin-bottom: 100px;
     width: 50%;
   }
