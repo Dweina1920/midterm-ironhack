@@ -86,6 +86,22 @@ Las funcionalidades que contiene son las siguentes:
   - https://www.youtube.com/watch?v=flItyHiDm7E&ab_channel=WebDevTutorials
   - https://www.youtube.com/watch?v=n8tGhugAces
 
+  Instruccioness para instalar el repositorio en local:
+  - git init
+  - git clone https://github.com/Dweina1920/midterm-ironhack.git
+
+  Enlace repositorio 
+
+  - https://github.com/Dweina1920/midterm-ironhack
+
+  Enlace presentación
+  
+ - https://www.canva.com/design/DAFY2jLKNro/zQcKiVBlGDo5k1f5ih31Rg/view?utm_content=DAFY2jLKNro&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+ Enlace Deplpoy con Vercel
+ - midterm-ironhack-three.vercel.app
+
+
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,6 +113,7 @@ Las funcionalidades que contiene son las siguentes:
 - JS
 - GITHUB
 - FIGMA
+- CANVA
 - VERCEL
 
 
@@ -202,5 +219,7 @@ Mis agradecimientos van dirigidos a:
   responsive. Finalmente he corregido todo em el @media y para el siguiente proyecto lo tendré en cuenta para ahorrar tiempo.
 
 - Otro error por mi parte ha sido ponerme como objetibo terminar la página web al completo en cinco días y eso ha ocasionado frustración. He comprendido que poco y bien es suficiente, así para el siguiente proyecto crearé objetivos reales. 
+
+
 
 
