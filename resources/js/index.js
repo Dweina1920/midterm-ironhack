@@ -83,7 +83,7 @@ const mostrarData = (data) => {
   let items = data.slice(0, size).map((singleCard) => {
     return (card += `<div class="card">
                <div class="div-img-card">
-                 <img class ="img-card" src="./resources/images/test/descarga.jpg" alt="">
+                 <img class ="img-card" src="./resources/images/projects-section/1.jpg" alt="">
                </div>
                <div class="container-info-card">
                  <p class="titulo-card">${singleCard.title}</p>

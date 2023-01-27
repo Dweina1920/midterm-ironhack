@@ -12,8 +12,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin: 8%;
+  margin: 8%;
   background-color: #f2f4fc!important ;
 }
 
@@ -395,30 +395,35 @@ body {
 
 .card-services {
   margin-top: 5%;
-  width: 250px;
+  width: 300px;
   height: 250px;
   background-color: white;
 }
+
 
 .container-info-card-services {
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: space-around;
+ 
   height: 150px;
-  padding: 20px;
+ 
   background-color: #c8dff3;
+  gap: 0;
 }
 .titulo-card-services {
-  font-size: 25px;
+  font-size: 20px;
+  margin: 2% 10% 0 10%;
 }
 
-.descripcion-card {
-  font-size: 20px;
+.descripcion-card-services {
+  font-size: 15px;
+  margin: 0% 10% 0 10%;
 }
 .learn-more-class {
-  margin-top: 6%;
+ 
   color: #072ac8;
+  margin: 0% 10% 0 10%;
 }
 
 /* ------------------------------ Questions form ------------------------------ */
@@ -666,7 +671,7 @@ form {
   /*boton hamburguesa*/
   /*header*/
   .header {
-    justify-content: space-between;
+    
     margin-bottom: 10%;
   }
   .hamburguer {
@@ -679,7 +684,7 @@ form {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    width: 75px;
+    width: 100px;
     height: 30px;
     font-size: 10px;
   }
@@ -693,6 +698,7 @@ form {
 
     width: 100%;
     text-align: center;
+   
     transition: height 300ms;
   }
   .nav {
@@ -801,7 +807,7 @@ form {
   /*our services*/
   .card-services {
     margin-top: 30%;
-    width: 250px;
+    width: 300px;
     height: 250px;
     background-color: white;
   }
