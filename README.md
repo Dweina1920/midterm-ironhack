@@ -135,10 +135,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Jueves 26, Enero 2023
 
 - [x] Maquetación Project y Responsive. 
-- [6] Maquetación About Us y Responsive.
-- [5] Funcionalidad Loader. 
-- [4] Fetch que lleve a project.
-- [3] SetTime de ContactUs. 
+- [x] Fetch que lleve a project.
+-  SetTime de ContactUs. 
 - [x] ContactUs Responsive.
 
 #### Day Five
@@ -151,7 +149,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Acerca de mi -->
+Me llamo Dina Yamani y soy la creadora del proyecto que estás revisando. 
 
 ## Acerca
 
