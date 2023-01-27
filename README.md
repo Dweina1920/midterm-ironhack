@@ -64,35 +64,41 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
+El proyecto se crea para una empresa relacionada con el mundo de la tecnología, creando así contacto directo con el cliente. 
 
-En esta sección se puede incluir información como:
+La páginaweb se divide en:
+  - Home
+  - Project-1
+  - Project-2
+  - Project-3
+  - Contact Us
 
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
+Las funcionalidades que contiene son las siguentes:
+  - Navegación dinámica en la página, con un buen diseño UX. 
+  - Página web completamente responsive para móviles. 
+  - Botón Scroll to Up.
+  - Botones en el Header que hacer Scroll de forma ligera a las seciones project i services.
+  - Formulario con función console.log() del value de los inputs.
+  - Fetch() desde una API tanto en el Index como en las páginas de los proyectos. 
+  - Slide de las marcas más conocidas con las que ha trabajado el cliente. 
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+  He tenido ayuda de bastantes videos de Youtube, dos de los cuales son:
+  - https://www.youtube.com/watch?v=flItyHiDm7E&ab_channel=WebDevTutorials
+  - https://www.youtube.com/watch?v=n8tGhugAces
+
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
+- HTML 
+- CSS
+- JS
+- GITHUB
+- FIGMA
+- VERCEL
 
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,73 +106,79 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Backlog
 
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
-
-#### Day One
-
 #### Day One
 
 ###### Lunes 23, Enero 2023
 
-- [x] Maquetación de Header 
-- [x] Maquetación body de Contact Us. 
 - [x] Crear repositorio y vincularlo a carpeta local. 
-- [] Maquetación de Home completo. 
+- [x] Maquetación de Header.
+- [x] Maquetación body de Contact Us. 
+
 
 #### Day Two
 
 ###### Martes 24, Enero 2023
+
 - [x] Maquetación Hero. 
 - [x] Maquetación sección de Reviews. 
 - [x] Maquetación sección de las Cards(projects y services). 
 - [x] Funcionalidad colnsole.log en ContactUs. 
 
+
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
-- [x] Maquetación de Home completo y responsive 
+- [x] Maquetación de Home completo y responsive.
 - [x] Botón hamburguesa del Header.
 - [x] Funcionalidad Scroll to Top.
 - [x] Funcionalidad Scroll to Projects.
-- [x] Funcionalidad Scroll To Services.
+- [x] Funcionalidad Scroll to Services.
+
+
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
-- [x] Maquetación Project y Responsive. 
-- [x] Fetch que lleve a project.
--  SetTime de ContactUs. 
+- [x] Maquetación de página Project y Responsive. 
+- [x] Fetch en Index que lleve a project.
 - [x] ContactUs Responsive.
+
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
-- [2] Push final. 
-- [1] README. 
-- [3] Presentación. 
+
+- [x] Retoques finales. 
+- [x] README.
+- [x] Push final. 
+- [x] Presentación. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Me llamo Dina Yamani y soy la creadora del proyecto que estás revisando. 
+
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+Me llamo Dina Yamani y soy la creadora del proyecto que estás revisando. El proyecto es un reto que nos ha lanzado la escuela IronHack en la que estoy cursando un curso de Front End. 
 
-En esta sección se puede incluir información como:
+Mis estudios relacionados con el desarrollo empezaron en 2022 con el curso Full-Stack al que asistí en Factoría F5.
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
+Con hambre de conocimiento y con ganas de en mi primera experiencia laboral y aplicar todo lo aprendido en las excelentes formaciones. 
 
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
+Información de contacto:
+- linkedin.com/in/dina-yamani
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+- github.com/Dweina1920 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+- dina.yamanid@gmail.com
+
+
+
+Dina Yamani - [@your_linkedin](linkedin.com/in/dina-yamani) 
+
+Project Link: [https://github.com/Dweina1920/midterm-ironhack](https://github.com/your_username/repo_name)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
@@ -176,15 +188,10 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
+Mis agradecimientos van dirigidos a:
+- IronHack por darme la oportunidad. 
+- A los profesores por brindarnos su tiempo para ayudarnos con dudas y por habernos enseñado tanto en tan poco. 
+- A los compañeros del curso por estar dispuestos a ayudar en todo momento. 
 
 - [Icon Libraries](insert-link-here)
 - [Google Font Libraries](insert-link-here)
@@ -193,9 +200,9 @@ En resumen, la sección "agradecimientos" es una excelente manera de agradecer a
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+- Uno de los problemas técnicos que he tenido ha sido con el Scroll to Up ya que lo he creado con función de js, que es incompatible con  scroll-behavior: smooth; Finalmente lo he corregido gracias a la ayuda de mi profesor Jarko, anulando la funcón y añadiendo a todo el HTML el scroll-behavior: smooth. Para mis siguientes proyectos tendré en cuenta las incompativilidades que hay en js. 
 
-En esta sección se puede incluir información como:
+
 
 - Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
 - Soluciones implementadas para superar estos desafíos.
@@ -206,13 +213,9 @@ En resumen, la sección "desafío técnico" es una excelente manera de brindar a
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
+- Uno de mis errores ha sido utilizar demasiados margins, y paddins para centrar divs. Por ello, he perdido mucho tiempo creando correctamente el 
+  responsive. Finalmente he corregido todo em el @media y para el siguiente proyecto lo tendré en cuenta para ahorrar tiempo.
 
-En esta sección se puede incluir información como:
+- Otro error por mi parte ha sido ponerme como objetibo terminar la página web al completo en cinco días y eso ha ocasionado frustración. He comprendido que poco y bien es suficiente, así para el siguiente proyecto crearé objetivos reales. 
 
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
 
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
