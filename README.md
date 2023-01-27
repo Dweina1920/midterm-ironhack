@@ -187,8 +187,7 @@ Mis agradecimientos van dirigidos a:
 - A los profesores por brindarnos su tiempo para ayudarnos con dudas y por habernos enseñado tanto en tan poco. 
 - A los compañeros del curso por estar dispuestos a ayudar en todo momento. 
 
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
